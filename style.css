@@ -1,0 +1,225 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav-par-section {
+  display: flex;
+  height: 100px;
+
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.nav-par {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 35px;
+}
+.logo {
+  display: flex;
+}
+
+.nav-par-link {
+  width: 800px;
+}
+.bg {
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+  margin: 30px 0;
+  background-image: url(pattern-01.png);
+  background-size: contain;
+  position: relative;
+}
+
+.titel-hero-section {
+  text-align: center;
+  font-size: 30px;
+}
+.text-hero-section {
+  text-align: center;
+  border: 4px solid black;
+  margin: 1px 600px;
+  padding: 10px;
+}
+.img-hero {
+  position: absolute;
+  left: 82%;
+  top: -20px;
+  width: 300px;
+  transform: rotate(20deg);
+  overflow: hidden;
+}
+.text-main-section {
+  text-align: center;
+  font-size: 25px;
+}
+.food-card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-card {
+  border: 2px solid black;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.img1 {
+  width: 300px;
+}
+
+.img2 {
+  width: 300px;
+  height: 300px;
+}
+
+.img3 {
+  width: 300px;
+  height: 300px;
+}
+
+.img4 {
+  width: 300px;
+  height: 300px;
+}
+
+.img5 {
+  width: 300px;
+}
+
+.img6 {
+  width: 300px;
+}
+
+.img7 {
+  width: 300px;
+}
+
+.img8 {
+  width: 300px;
+}
+
+.text-img {
+  color: azure;
+}
+
+#text-img1 {
+  position: absolute;
+  top: 660px;
+  left: 220px;
+}
+
+#text-img2 {
+  position: absolute;
+  top: 660px;
+  left: 560px;
+}
+
+#text-img3 {
+  position: absolute;
+  top: 660px;
+  left: 870px;
+}
+
+#text-img4 {
+  position: absolute;
+  top: 660px;
+  left: 1200px;
+}
+
+#text-img5 {
+  position: absolute;
+  top: 1000px;
+  left: 420px;
+}
+
+#text-img6 {
+  position: absolute;
+  top: 1000px;
+  left: 710px;
+}
+
+#text-img7 {
+  position: absolute;
+  top: 1000px;
+  left: 1015px;
+}
+
+.bg-text1 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 675px;
+}
+
+.bg-text2 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 675px;
+}
+
+.bg3-text3 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 675px;
+}
+
+.bg-text3 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 675px;
+}
+
+.bg-text4 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 675px;
+}
+
+.bg-text5 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 1015px;
+}
+
+.bg-text6 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 1015px;
+}
+
+.bg-text7 {
+  width: 300px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 1015px;
+}
+
+.food-card:hover {
+  background-color: lightsalmon;
+  box-shadow: 0px 0px 20px lightsalmon;
+}
+.nav:hover {
+  background-color: lightsalmon;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  box-shadow: 0px 0px 10px lightsalmon;
+}
